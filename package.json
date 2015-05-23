@@ -1,6 +1,6 @@
 {
   "name": "rescale-util",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Arbitrary precision for rescale",
   "main": "src/arbitrary-precision.js",
   "scripts": {
