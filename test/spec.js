@@ -11,7 +11,7 @@ var load = arbitraryPrecision.load;
 var isAvailable = arbitraryPrecision.isAvailable;
 
 describe('arbitrary precision', function() {
-  describe('load', function () {
+  describe('load', function() {
     var optionalMock;
 
     afterEach(function() {
@@ -29,7 +29,7 @@ describe('arbitrary precision', function() {
     });
   });
 
-  describe('isAvailable', function () {
+  describe('isAvailable', function() {
     var optionalStub;
 
     beforeEach(function() {
