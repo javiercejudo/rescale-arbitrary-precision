@@ -16,8 +16,8 @@ Arbitrary precision for rescale
 var arbitraryPrecision = require('rescale-arbitrary-precision');
 
 arbitraryPrecision.isAvailable(); // => false
-arbitraryPrecision.load(); // => Big.js API (or undefined if not installed)
-arbitraryPrecision.isAvailable(); // => true (or false if Big.js isn't installed)
+arbitraryPrecision.load(); // => arbitrary precision API (Big.js, bignumber.js or decimal.js), or undefined if none available
+arbitraryPrecision.isAvailable(); // => true, or false if no decimal library is installed
 ```
 
 See [spec](test/spec.js).
