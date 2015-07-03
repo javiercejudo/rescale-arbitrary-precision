@@ -21,8 +21,8 @@ describe('arbitrary precision', function() {
     it('should delegate to optionale.optionale', function() {
       optionalMock = sinon.mock(optionale);
 
-      optionalMock.expects('optionale')
-        .withExactArgs('big.js')
+      optionalMock.expects('any')
+        .withExactArgs(['big.js', 'bignumber.js', 'decimal.js'])
         .returns('something');
 
       load().should.be.exactly('something');
@@ -33,7 +33,7 @@ describe('arbitrary precision', function() {
     var optionalStub;
 
     beforeEach(function() {
-      optionalStub = sinon.stub(optionale, 'optionale');
+      optionalStub = sinon.stub(optionale, 'any');
 
       optionalStub
         .onFirstCall().returns('something')

@@ -12,7 +12,7 @@ var decimal;
  * @return {*}
  */
 exports.load = function load() {
-  decimal = optionale.optionale('big.js');
+  decimal = optionale.any(['big.js', 'bignumber.js', 'decimal.js']);
 
   return decimal;
 };
