@@ -1,4 +1,4 @@
-# rescale-util
+# rescale-arbitrary-precision
 
 [![Build Status](https://travis-ci.org/javiercejudo/rescale-arbitrary-precision.svg)](https://travis-ci.org/javiercejudo/rescale-arbitrary-precision)
 [![Coverage Status](https://coveralls.io/repos/javiercejudo/rescale-arbitrary-precision/badge.svg?branch=master)](https://coveralls.io/r/javiercejudo/rescale-arbitrary-precision?branch=master)
