@@ -3,6 +3,7 @@
 'use strict';
 
 var optionale = require('optionale');
+var isUndefined = require('lodash.isundefined');
 
 var decimal;
 
@@ -23,5 +24,5 @@ exports.load = function load() {
  * @return {Boolean} Arbitrary precision availability
  */
 exports.isAvailable = function isAvailable() {
-  return typeof decimal !== 'undefined';
+  return !isUndefined(decimal);
 };
